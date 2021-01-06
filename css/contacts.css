@@ -1,0 +1,103 @@
+.contacts {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__left {
+  width: calc(50% - 20px);
+  padding-top: var(--grid-gap);
+  padding-left: 120px;
+}
+
+.contacts__title {
+  margin-bottom: 32px;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.phone-contacts {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.address {
+  padding-left: 24px;
+  margin-bottom:var(--grid-gap);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--lilac-color);
+  background-image: url(../img/location.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.social {
+  display: flex;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social__link {
+  width: var(--grid-gap);
+  height: var(--grid-gap);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.social__link--fb {
+  background-image: url(../img/fb.svg);
+}
+
+.social__link--vk {
+  background-image: url(../img/vk.svg);
+}
+
+.social__link--inst {
+  background-image: url(../img/Instagram.svg);
+}
+
+.social__link--tw {
+  background-image: url(../img/Twitter.svg);
+}
+
+.contacts__right {
+  width: calc(50% - 20px);
+  padding-right: 120px;
+}
+
+.contacts-form-wrapper {
+  padding: var(--grid-gap) 60px;
+  border-radius: 20px;
+  background-color: var(--white-color);
+  box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+}
+
+.callback-form__input {
+  margin-bottom: 20px;
+}
+
+.callback-form__textaria {
+  height: 81px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+
+
+
+
+
+
+
+
+
