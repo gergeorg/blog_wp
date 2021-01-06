@@ -90,11 +90,11 @@
   color: var(--lilac-color);
 }
 
-.post-links__link--prev span {
+.post-links__link--next span {
   margin-right: 7px;
 }
 
-.post-links__link--next svg {
+.post-links__link--prev svg {
   margin-right: 7px;
 }
 
